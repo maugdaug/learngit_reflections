@@ -10,10 +10,15 @@ What value do you think it offers?
 How can you use the staging area to make sure you have one commit per logical
 change?
 
-
+	Use git diff to compare the working directory to the staging area.
+	Use git diff --staged to compare the current commit to the staging area.
 
 What are some situations when branches would be helpful in keeping your history
 organized? How would branches help?
+
+	If you want to work on a new feature or new version of your software,
+	having different branches can keep all of your different versions separate
+	so you can easily switch between them.
 
 How do the diagrams help you visualize the branch structure?
 
